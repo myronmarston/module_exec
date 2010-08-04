@@ -1,4 +1,5 @@
 require 'rspec'
+require File.join(File.dirname(__FILE__), '..', 'lib', 'module_exec')
 
 describe '#module_exec' do
   it 'allows instance methods to be defined' do
